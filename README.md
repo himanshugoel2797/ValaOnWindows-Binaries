@@ -17,4 +17,4 @@ You will also need MSYS with the above setup
 Grab the latest source tarball from https://wiki.gnome.org/Projects/Vala/Release and place it in your 
 MSYS_INSTALL_DIR/home/USERNAME/
 
-Now follow the instructions as per https://wiki.gnome.org/Projects/Vala/Hacking#Getting_the_source
+Now follow the instructions as per Step 2 in https://wiki.gnome.org/Projects/Vala/Hacking#Compiling_from_Git
