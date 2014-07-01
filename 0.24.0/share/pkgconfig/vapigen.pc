@@ -1,0 +1,15 @@
+prefix=/opt/vala-release
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+bindir=${exec_prefix}/bin
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+includedir=${prefix}/include
+
+vapigen=${bindir}/vapigen-0.24
+vapidir=${datadir}/vala/vapi
+vapidir_versioned=${datadir}/vala-0.24/vapi
+
+Name: vapigen
+Description: Vala API Generator
+Version: 0.24.0
