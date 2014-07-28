@@ -17,4 +17,12 @@ You will also need MSYS with the above setup
 Grab the latest source tarball from https://wiki.gnome.org/Projects/Vala/Release and place it in your 
 MSYS_INSTALL_DIR/home/USERNAME/
 
+Pkg-Config
+-----------------
+Sometimes it may be necessary to set the pkg-config path, in which case 
+
+export PKG_CONFIG="/c/MinGW/bin/pkg-config"  (the pkg-config install path)
+
+
+
 Now follow the instructions as per Step 2 in https://wiki.gnome.org/Projects/Vala/Hacking#Compiling_from_Git
