@@ -1,0 +1,19 @@
+prefix=/opt/vala-0.25.3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+bindir=${exec_prefix}/bin
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+vapidir=${datarootdir}/vala-0.26/vapi
+
+vapigen=${exec_prefix}/bin/vapigen-0.26
+gen_introspect=${exec_prefix}/lib/vala-0.26/gen-introspect-0.26
+vala_gen_introspect=${exec_prefix}/bin/vala-gen-introspect-0.26
+
+Name: Vala
+Description: The Vala compiler library
+Version: 0.25.3
+Requires: glib-2.0 gobject-2.0
+Libs: -L${libdir} -lvala-0.26
+Cflags: -I${includedir}/vala-0.26
